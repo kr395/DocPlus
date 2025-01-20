@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10">
+    <div>
       {/* Left Side  */}
       <div>
         <p>
@@ -22,9 +22,7 @@ const Header = () => {
         </a>
       </div>
       {/* Right Side  */}
-      <div>
-        <img src={assets.header_img} alt="" srcset="" />g
-      </div>
+      <div></div>
     </div>
   );
 };
