@@ -22,7 +22,9 @@ const Header = () => {
         </a>
       </div>
       {/* Right Side  */}
-      <div></div>
+      <div>
+        <img src={assets.header_img} alt="" srcset="" />g
+      </div>
     </div>
   );
 };
